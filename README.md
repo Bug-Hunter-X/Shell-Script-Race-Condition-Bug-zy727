@@ -1,0 +1,1 @@
+This repository demonstrates a race condition bug in a shell script. Two processes concurrently write to the same files, resulting in data corruption or unpredictable output. The `bug.sh` file contains the buggy code, while `bugSolution.sh` provides a corrected version using appropriate locking mechanisms.
